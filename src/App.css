@@ -1045,10 +1045,10 @@ input {
 }
 @media screen and (max-width: 414px) {
   .left, .right{
-    flex: .1;
+    flex: .025;
   }
   .border{
-    flex: .8;
+    flex: .95;
     /* background: #008b8b; */
   }
   .center{
