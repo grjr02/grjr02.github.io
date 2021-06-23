@@ -65,6 +65,8 @@ function App() {
         backupDate2: f2q2,
         dateType: f2q3,
       };
+      setDisplay(false);
+
       try {
         let x = await axios.post(url, body);
         let y = await axios.get(
@@ -298,13 +300,13 @@ const DateSelection = forwardRef(
             <div className="ques1">
               <label>Insert a 2nd Preferred Date</label>
               <br />
-              <input value={f2q1} onChange={inputHandler} type="date" />
+              <input value={f2q1} onChange={inputHandler} type="date" placeholder="yyyy-mm-dd" />
               <br />
             </div>
             <div className="ques">
               <label>Insert a 3rd Preferred Date</label>
               <br />
-              <input value={f2q2} onChange={inputHandler2} type="date" />
+              <input value={f2q2} onChange={inputHandler2} type="date" placeholder="yyyy-mm-dd"/>
               <br />
             </div>
             <div className="ques">

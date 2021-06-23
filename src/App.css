@@ -108,7 +108,7 @@ h3 {
   /* color: rgb(230, 148, 177); */
   color: rgb(138, 21, 62);
   margin: 0;
-  animation: heading 1.5s ease;
+  /* animation: heading 1.5s ease; */
 }
 .heading{
   padding: 0;
@@ -195,7 +195,7 @@ color: rgb(138, 21, 62);
   /* 0 10px 10px rgba(0, 0, 0, 0.767), */
   0 5px 5px #fff;
   /* animation: heading3 1.5s ease; */
-  margin-bottom: 100px;
+  margin-bottom: 85px;
 
 }
 .subheading {
